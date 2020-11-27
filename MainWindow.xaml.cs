@@ -38,7 +38,7 @@ namespace HarryPotter_2a
             wizard.DumbledoresArmy = true;
 
 
-            string detnyalösenordet = "aaaaz";
+            string detnyalösenordet = "aaaaaaaaa";
             string detäldrelösenordet = "uauuauaz";
             Hufflepuff hufflepuff = new Hufflepuff();
             hufflepuff.SetPassword(detnyalösenordet, detäldrelösenordet);

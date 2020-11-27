@@ -129,15 +129,21 @@ namespace HarryPotter_2a
                 }
 
 
-                else
-                {
+               
+
+
+          }
+            if (!passwordtest)
+            {
+                
                     passwordtest = false;
+                    newpassword = null;
 
                 }
-
-             
-            }
             return passwordtest;
+        }
+
+          
         }  
     }
 
