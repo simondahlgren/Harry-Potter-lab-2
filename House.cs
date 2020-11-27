@@ -26,7 +26,7 @@ namespace HarryPotter_2a
 
 
 
-        public virtual bool AmountOfLetters(string password)
+        public virtual bool HasAmountOfLetters(string password)
 
         {
 
@@ -110,12 +110,12 @@ namespace HarryPotter_2a
 
             bool passwordtest;
 
-            if (passwordtest = AmountOfLetters(newpassword))
+            if (passwordtest = HasAmountOfLetters(newpassword))
             {
                 if (passwordtest = HasTheRightVowelsAndConsonants(newpassword))
 
                 {
-                    if (passwordtest = AmountOfLetters(oldpassword))
+                    if (passwordtest = HasAmountOfLetters(oldpassword))
 
                         if (passwordtest = HasTheRightVowelsAndConsonants(oldpassword))
                         {

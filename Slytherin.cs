@@ -19,7 +19,7 @@ namespace HarryPotter_2a
 
         }
 
-        public override bool AmountOfLetters(string password)
+        public override bool HasAmountOfLetters(string password)
 
         {
            
