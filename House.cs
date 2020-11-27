@@ -9,6 +9,10 @@ namespace HarryPotter_2a
     public abstract class House
 
     {
+
+
+        string currentpassword = "A44aaaA";
+
         public List<Wizard> Members { get; set; }
 
         public string Mascot { get; set; }
@@ -19,9 +23,7 @@ namespace HarryPotter_2a
         public House()
 
         {
-
-
-
+            
         }
 
 
@@ -108,13 +110,14 @@ namespace HarryPotter_2a
 
         {
             bool passwordtest;
-
-            if (newpassword == oldpassword)
+           
+       
+            if (newpassword == oldpassword && Password != oldpassword)
             {
                 passwordtest = false;
                 newpassword = null;
             }
-
+            
             else if (passwordtest = HasCorrectNumberOfLetters(newpassword))
             {
                 if (passwordtest = HasTheRightVowelsAndConsonants(newpassword))
@@ -126,6 +129,13 @@ namespace HarryPotter_2a
 
             }
 
+            else
+
+            {
+                passwordtest = false;
+                newpassword = null;
+
+            }
             return passwordtest;
 
         }
