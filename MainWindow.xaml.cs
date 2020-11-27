@@ -30,18 +30,18 @@ namespace HarryPotter_2a
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            Wizard wizard = new Wizard();
+            //Wizard wizard = new Wizard();
 
-            wizard.Name = "harry potter";
-            wizard.Bloodstatus = "halv blod";
-            wizard.DeathEater = false;
-            wizard.DumbledoresArmy = true;
+            //wizard.Name = "harry potter";
+            //wizard.Bloodstatus = "halv blod";
+            //wizard.DeathEater = false;
+            //wizard.DumbledoresArmy = true;
 
 
-            string detnyalösenordet = "aaaaaaaaa";
-            string detäldrelösenordet = "uauuauaz";
-            Hufflepuff hufflepuff = new Hufflepuff();
-            hufflepuff.SetPassword(detnyalösenordet, detäldrelösenordet);
+            //string detnyalösenordet = "aaaaaaaaa";
+            //string detäldrelösenordet = "uauuauaz";
+            //Hufflepuff hufflepuff = new Hufflepuff();
+            //hufflepuff.SetPassword(detnyalösenordet, detäldrelösenordet);
 
         }
 
