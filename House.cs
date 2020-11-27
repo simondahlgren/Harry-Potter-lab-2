@@ -26,7 +26,7 @@ namespace HarryPotter_2a
 
 
 
-        public virtual bool HasAmountOfLetters(string password)
+        public virtual bool HasCorrectNumberOfLetters(string password)
 
         {
 
@@ -107,46 +107,27 @@ namespace HarryPotter_2a
 
 
         {
-
             bool passwordtest;
 
-            if (passwordtest = HasAmountOfLetters(newpassword))
+            if (newpassword == oldpassword)
+            {
+                passwordtest = false;
+                newpassword = null;
+            }
+
+            else if (passwordtest = HasCorrectNumberOfLetters(newpassword))
             {
                 if (passwordtest = HasTheRightVowelsAndConsonants(newpassword))
 
                 {
-                    if (passwordtest = HasAmountOfLetters(oldpassword))
-
-                        if (passwordtest = HasTheRightVowelsAndConsonants(oldpassword))
-                        {
-
-                            passwordtest = true;
-
-                        }
-
-
+                    passwordtest = true;
 
                 }
 
+            }
 
-               
-
-
-          }
-            if (!passwordtest)
-            {
-                
-                    passwordtest = false;
-                    newpassword = null;
-
-                }
             return passwordtest;
+
         }
-
-          
-        }  
     }
-
-
-
 }
