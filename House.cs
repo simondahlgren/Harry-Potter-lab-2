@@ -11,7 +11,6 @@ namespace HarryPotter_2a
     {
 
 
-        string currentpassword = "A44aaaA";
 
         public List<Wizard> Members { get; set; }
 
@@ -19,14 +18,6 @@ namespace HarryPotter_2a
         public string HouseGhost { get; set; }
 
         public string Password { get; set; }
-
-        public House()
-
-        {
-            
-        }
-
-
 
         public virtual bool HasCorrectNumberOfLetters(string password)
 
